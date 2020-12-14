@@ -1,0 +1,99 @@
+You can find that setting here: File -> Settings -> Kotlin Compiler -> Target JVM Version
+
+dependencies {
+	implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.github.clans:fab:1.6.4'
+	
+https://kotlinlang.org/docs/tutorials/android-plugin.html
+
+https://kotlinlang.org/docs/reference/
+
+https://kotlinlang.org/docs/reference/delegated-properties.html
+
+https://kotlinlang.org/docs/reference/null-safety.html
+
+Lembre-se que para enviar uma Higher-Order Function como parâmetro de uma chamada de função é necessário receber a mesma quantidade e tipo de parâmetros, como também, o mesmo retorno.
+
+https://kotlinlang.org/docs/reference/data-classes.html
+https://kotlinlang.org/docs/reference/coroutines.html
+https://kotlinlang.org/docs/reference/annotations.html
+https://kotlinlang.org/docs/reference/generics.html
+https://kotlinlang.org/docs/reference/basic-types.html
+https://kotlinlang.org/docs/reference/operator-overloading.html
+https://kotlinlang.org/docs/reference/typecasts.html
+https://kotlinlang.org/docs/reference/java-interop.html
+https://kotlinlang.org/docs/reference/java-to-kotlin-interop.html
+
+https://medium.com/collabcode/seja-tamb%C3%A9m-um-desenvolvedor-kotlin-770188949486
+
+https://developer.android.com/jetpack/docs/guide?hl=pt-br
+
+def lifecycle_version = "2.0.0"
+
+implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+
+dependency injection
+https://insert-koin.io/
+https://cursos.alura.com.br/injecao-de-dependencia-em-projetos-android-com-koin-parte-1-c48
+https://cursos.alura.com.br/injecao-de-dependencia-em-projetos-android-com-koin-parte-2-c49
+https://github.com/alura-cursos/android-di-koin
+https://medium.com/collabcode/inje%C3%A7%C3%A3o-de-depend%C3%AAncia-no-kotlin-com-koin-4d093f80cb63
+
+https://medium.com/collabcode/criando-lista-com-recyclerview-no-android-com-kotlin-85cb76f3775d
+
+https://cursos.alura.com.br/como-compartilhar-seu-localhost-de-forma-simplificada-com-o-ngrok-c7
+
+:: ao inves de exp lambda de chamada unica
+
+https://developer.android.com/guide/components/fragments?hl=pt-br#Creating
+
+https://www.techotopia.com/index.php/An_Android_Studio_Master/Detail_Flow_Tutorial
+
+https://material.io/components/bottom-navigation/
+https://material.io/components/navigation-drawer/
+https://material.io/components/tabs/
+https://developer.android.com/training/animation/screen-slide
+
+https://cursos.alura.com.br/operacoes-assincronas-com-coroutines-do-kotlin-no-android-c58
+https://kotlinlang.org/docs/reference/coroutines-overview.html
+https://codelabs.developers.google.com/codelabs/kotlin-coroutines/index.html?index=..%2F..index#0
+https://www.youtube.com/watch?v=BOHK_w09pVA
+
+https://developer.android.com/guide/navigation/navigation-principles
+https://developer.android.com/jetpack/androidx/releases/navigation#declaring_dependencies
+https://developer.android.com/guide/navigation/navigation-getting-started
+https://developer.android.com/guide/navigation/navigation-getting-started#navigate
+https://developer.android.com/jetpack/androidx/releases/navigation#safeargs
+
+https://developer.android.com/training/transitions
+https://developer.android.com/guide/topics/resources/animation-resource
+
+https://developer.android.com/guide/navigation/navigation-nested-graphs#include
+
+https://developer.android.com/guide/navigation/navigation-ui
+
+https://github.com/bumptech/glide
+
+https://developer.android.com/topic/libraries/data-binding/start#preview-compiler
+
+https://developer.android.com/topic/libraries/data-binding/expressions#collections
+
+https://github.com/alura-cursos/android-databinding
+
+Migrar activity para fragment:
+https://github.com/alura-cursos/android-fragments/commit/ffbd55c20818a5624f1107bc342e886ad8618077
+https://github.com/alura-cursos/android-fragments/commit/a470ab281810c63787f7d654da55d5899a5f06c4
+https://github.com/alura-cursos/android-fragments/commit/a61be9b5a1edd0ca01b7afd5ea6b23f2b179bdad
+
+Criar fragment programaticamente
+https://github.com/alura-cursos/android-fragments/commit/5a50b0bb6aa7b4b6de7fc80180bc6d37f96ad16d
+https://github.com/alura-cursos/android-fragments/commit/7834554895dc69932f04824c7aa6128a1c6ba905
+
+Criando ViewModel + LiveData
+https://github.com/alura-cursos/android-tech-news/commit/f0b18626161e461f2aa87cc5484f2b3f35acfd34
+https://github.com/alura-cursos/android-tech-news/commit/00616c9ab3395c9249883caacb7d86f002f68e03
+https://github.com/alura-cursos/android-tech-news/commit/609cdf6c7960415fffba302b017c13be840fe130
+https://github.com/alura-cursos/android-tech-news/commit/08dd2a67bd0b946310bee3438e6947bb3efb5c5a
+https://github.com/alura-cursos/android-tech-news/commit/1cb47ec8dfb97af8b3f15593783b76a0d8c9f73a

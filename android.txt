@@ -1,0 +1,90 @@
+https://developer.android.com/studio/
+https://developer.android.com/studio/install
+
+Tools -> AVD Manager
+Criar deployment target, baixar imagem do sistema
+
+https://developer.android.com/training/basics/firstapp/running-app?hl=pt-br
+https://developer.android.com/studio/run/device.html
+
+Limpando e recompilando o projeto
+Use o atalho Ctrl + Shift + A para abrir a opção Find Action (vai aparecer o título Enter action or option name);
+Então digite "Clean Project" até aparecer a opção com o mesmo nome e tecle Enter para executar -> Essa ação vai limpar o projeto;
+Em seguida, Find Action novamente com o Ctrl + Shift + A e busque a opção Rebuild Project e a execute -> Nessa opção serão executadas as tasks do Gradle para recompilar o seu projeto.
+
+Sincronizando projeto com o Gradle
+Se o problema persistir, use novamente o Find Action, e tente a opção Sync Project with Gradle Files, nessa opção ele vai fazer o processo de sincronização do projeto com os arquivos de configuração de build do Gradle.
+
+Invalidando cache e reiniciando o Android Studio
+Se a sincronização não for o suficiente, a última alternativa é invalidar o cache, para isso vá no Find Action novamente e execute a opção Invalidate Caches / Restart... e clique na opção Invalidate and Restart.
+Esta opção reinicia o Android Studio, porém, além de reiniciar, no meio do processo ele remove todos os arquivos gerados pela IDE e gera novamente.
+
+C:\Users\vinip\Dropbox\Documents\Projetos\AndroidStudioProjects\Agenda
+C:\Users\vinip\.AndroidStudio3.5\system
+C:\Users\vinip\AppData\Local\Android\Sdk
+C:\Users\vinip\.gradle
+
+https://developer.android.com/guide/topics/resources/more-resources#Dimension
+https://developer.android.com/guide/components/activities?hl=pt-br#Lifecycle
+https://medium.com/@lucas_marciano/por-que-usar-o-parcelable-ao-inv%C3%A9s-do-serializable-5f7543a9c7f3
+
+https://developer.android.com/studio/intro/keyboard-shortcuts?hl=pt-br
+https://developer.android.com/guide/topics/ui/dialogs
+https://www.alura.com.br/artigos/utilizando-o-padrao-viewholder
+https://developer.android.com/studio/write/translations-editor
+https://developer.android.com/guide/topics/data/autobackup
+https://developer.android.com/studio/write/app-link-indexing
+https://developer.android.com/guide/topics/text/autofill
+https://www.alura.com.br/artigos/criando-caixas-de-dialogo-no-android-dialogs/
+https://www.alura.com.br/artigos/criando-uma-tela-de-abertura-no-android-splash-screen/
+https://www.alura.com.br/artigos/salvando-informacoes-com-o-shared-preferences/
+https://android.jlelse.eu/android-tools-attributes-listitem-sample-data-rocks-bbf49aaa9f07
+https://romannurik.github.io/AndroidAssetStudio/
+https://www.img-bak.in/
+
+Project Structure ("Ctrl + Shift + Alt + S").
+Aberta a janela, clicaremos na aba de "Dependencies". Nela, clicaremos no botão com sinal de soma (+), no canto superior direito, e selecionaremos a opção "Library dependency".
+Na barra de busca, digitaremos recyclerview e selecionaremos o resultado
+
+https://www.alura.com.br/artigos/aumentando-a-produtividade-com-butter-knife-no-android/
+https://medium.com/collabcode/quando-considerar-o-uso-de-api-em-projetos-android-ffdb4ba9ad6
+
+build.gradle (Module: app)
+dependencies {
+	def room_version = "1.1.1"
+	implementation "android.arch.persistence.room:runtime:$room_version"
+	annotationProcessor "android.arch.persistence.room:compiler:$room_version"
+
+https://www.alura.com.br/artigos/o-que-e-push-notification/
+https://www.alura.com.br/artigos/integrando-app-android-com-o-firebase-cloud-messaging/
+https://www.alura.com.br/artigos/tratando-notificacoes-recebidas-do-firebase-no-android/
+https://developer.android.com/jetpack/androidx/releases/room
+
+
+https://square.github.io/retrofit/
+https://developer.android.com/training/volley
+build.gradle (Module: app)
+dependencies {
+	implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+	implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+	implementation 'com.squareup.okhttp3:logging-interceptor:3.13.1'
+
+https://developer.android.com/training/articles/security-config
+https://medium.com/@tsaha.cse/advanced-retrofit2-part-1-network-error-handling-response-caching-77483cf68620
+
+https://github.com/alura-cursos/android-persistencia-web-api
+
+FragmentTransaction tx = manager.beginTransaction();
+DetalheProvaFragment detalhesFragment = new DetalhesProvaFragment();
+tx.replace(R.id.frame_principal, new DetalhesProvaFragment());
+tx.addToBackStack(null);
+tx.commit();
+
+//addToBackStack qd usa fragment para ele entrar na pilha do botao voltar, que por padrao é só pra activity
+
+AIzaSyDflauTC3dXk9icLPTvC6uweq1a_KQVE08
+
+val produtoMapeado = mapOf<String, Any>(
+	"nome" to produto.nome,
+	"preco" to produto.preco.toDouble()
+)

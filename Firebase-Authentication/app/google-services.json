@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "725540972020",
+    "firebase_url": "https://alura-esporte-d4e31.firebaseio.com",
+    "project_id": "alura-esporte-d4e31",
+    "storage_bucket": "alura-esporte-d4e31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725540972020:android:13ffb8e6dbfc22f99b05a1",
+        "android_client_info": {
+          "package_name": "br.com.alura.aluraesporte"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725540972020-96ntgk3nf58jkd16vrrvtgp31opbustt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATyFwGt7BKMyJzHoMf_fVaaPt7eEUkOpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "725540972020-96ntgk3nf58jkd16vrrvtgp31opbustt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
