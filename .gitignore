@@ -83,3 +83,6 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+
+firebase_messaging/dev-meetups-api-runnable/firebase/
+android-studio-iii-fragments-maps-gps-master/app/src/debug/res/values
